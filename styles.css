@@ -1,0 +1,107 @@
+/* ------ BASIC SETUP ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 12%, 34%);
+}
+
+.clearfix {
+  zoom: 1
+}
+.clearfix:after {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+/* ------ TOP AREA ------ */
+.top-area {
+  text-align: center;
+  margin-top: 70px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1:first-child {
+  font-weight: 200;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.top-area p {
+  font-size: 90%;
+  color: hsl(229, 6%, 66%);
+  padding-top: 20px;
+}
+
+/* ------ BOTTOM AREA ------ */
+.bottom-area {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.box {
+  width: 90%;
+  height: 200px;
+  padding: 35px;
+  position: relative;
+  -webkit-border-radius: 10px;
+
+  margin: 5%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box-green {
+  border-top: 3px solid hsl(180, 62%, 55%);
+}
+
+.box-red {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+
+.box-yellow {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+.box-blue {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+
+h3 {
+  font-size: 120%;
+}
+
+.bottom-area p {
+  font-size: 80%;
+  color: hsl(229, 6%, 66%);
+}
+
+.icon {
+  width: 50px;
+  position: absolute;
+  right: 8%;
+  bottom: 14%;
+}
+
+
+
+/* ATTRIBUTION */
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }

@@ -1,0 +1,25 @@
+/* 1200px row upwards */
+@media only screen and (min-width: 1200px) {
+  div.box {
+    width: 90% !important;
+  }
+
+  div.col-box {
+    width: 32%;
+    float: left;
+  }
+
+  div.box.box-green,
+  div.box.box-blue {
+    margin-top: 140px;
+  }
+}
+
+/* 768px row upwards */
+@media only screen and (min-width: 768px) {
+
+  div.box {
+    width: 40%;
+    float: left;
+  }
+}
