@@ -29,13 +29,14 @@ body {
 /* ------ TOP AREA ------ */
 .top-area {
   text-align: center;
-  margin-top: 70px;
-  width: 90%;
+  margin-top: 5%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
 }
 
 h1:first-child {
+  font-size: 240%;
   font-weight: 200;
 }
 
@@ -60,10 +61,10 @@ h1 {
 .box {
   width: 90%;
   height: 200px;
-  padding: 35px;
+  padding: 30px;
   position: relative;
   -webkit-border-radius: 10px;
-
+  border-radius: 10px;
   margin: 5%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
