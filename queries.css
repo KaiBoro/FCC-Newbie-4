@@ -1,25 +1,25 @@
+/* 768px row upwards */
+@media only screen and (min-width: 768px) {
+  .box {
+    width: 40%;
+    float: left;
+  }
+}
+
 /* 1200px row upwards */
 @media only screen and (min-width: 1200px) {
-  div.box {
-    width: 90% !important;
+  .box {
+    width: 90%;
   }
 
-  div.col-box {
+  .col-box {
     width: 32%;
     float: left;
     padding-left: 2%;
   }
 
-  div.box.box-green,
-  div.box.box-blue {
+  .box-green,
+  .box-blue {
     margin-top: 140px;
-  }
-}
-
-/* 768px row upwards */
-@media only screen and (min-width: 768px) {
-  div.box {
-    width: 40%;
-    float: left;
   }
 }
